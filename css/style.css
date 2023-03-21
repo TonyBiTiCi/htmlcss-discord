@@ -1,0 +1,147 @@
+/* general */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header  */
+
+header {
+    background-color: #255ee9;
+}
+
+.header-container {
+    width:90%;
+    margin: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;/*  non capisco eprchè non mi allinea il logo al centro  */
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.jumbotron-container {
+    width:90%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* main  */
+
+
+.section-container.white {
+    background-color: white;
+}
+
+.section-container.grey {
+    background-color: grey;
+}
+
+.item.bg-grey.column {
+    display: block;
+    text-align: center;
+}
+
+
+section {
+    width: 90%;
+    margin: auto;
+    height: 200px;
+    border: 1px solid black;
+    background-color: chocolate;
+    display: flex;
+}
+
+.sezione.immagine {
+    width: 50%;  
+    border: 2px solid black;
+}
+
+.sezione.testo {
+    width: 50%;  
+    border: 2px solid black;
+}
+
+.item.bg-grey.column .sezione.immagine {
+    width:100%;
+    height:25%;
+}
+
+.item.bg-grey.column .sezione.testo {
+     width:100%;
+    height:25%;
+}
+
+section:nth-child(2) .sezione.immagine {
+    background-color: rgb(131, 122, 122);
+    order: +1;
+}
+
+section:nth-child(4) {
+    text-align: center;
+}
+
+section:nth-child(4) .sezione.immagine {
+    width: 100%;
+    height:25%%
+}
+
+section:nth-child(4) .sezione.testo {
+    width: 100%;
+    height: 25%;
+}
+
+/* footer */
+footer{
+    margin: auto;
+    background-color: #23272a;
+}
+
+.footer-container {
+    width:90%;
+    margin: auto;
+}
+
+.footer.grande {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna {
+    height:100px;
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.colonna.grande {
+    width: 40%;
+}
+
+.colonna.piccola {
+    width: 20%;
+}
+
+
+.footer.piccolo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 1px solid #7289da;
+}
